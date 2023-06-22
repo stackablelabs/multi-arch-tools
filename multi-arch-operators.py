@@ -20,6 +20,7 @@ def parse() -> Namespace:
         "-s",
         "--single",
         help="Build a single operator as multi arch",
+        default=""
     )
     return parser.parse_args()
 
