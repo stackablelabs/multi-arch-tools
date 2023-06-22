@@ -29,7 +29,7 @@ def main():
     if args.single != "":
         operators=[args.single]
     else:
-        operators = ["airflow", "commons", "druid", "hbase", "hdfs", "hive", "kafka", "nifi", "opa", "secret", "spark-k8s", "superset", "trino", "zookeeper"]
+        operators = ["airflow", "commons", "druid", "hbase", "hdfs", "hive", "kafka", "nifi", "opa", "secret", "spark-k8s", "superset", "trino", "zookeeper", "listener"]
 
     version = args.version
     for operator in operators:
